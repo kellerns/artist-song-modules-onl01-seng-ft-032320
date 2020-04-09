@@ -6,7 +6,7 @@ class Song
 
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
-  include Memorable::ClassMethods
+  include Paramable::ClassMethods
 
   @@songs = []
 
